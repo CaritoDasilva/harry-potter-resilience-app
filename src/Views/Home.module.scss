@@ -1,0 +1,65 @@
+.home {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+
+    img {
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .spells {
+        display: block;
+        margin: 5%;
+        padding: 5%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .house-container {
+            width: 40%;
+            height: 500px;
+
+            .house {
+                height: 400px;
+                width: 400px;
+                margin: 5%;
+                padding: 5%;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    width: fit-content;
+                    flex-wrap: wrap;
+                    margin: 9px;
+                    justify-content: center;
+
+                    span {
+                        display: flex;
+                        justify-content: center;
+
+                        div {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .error-container {
+                    width: 100%;
+
+                    div {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
